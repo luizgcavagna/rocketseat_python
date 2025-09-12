@@ -28,8 +28,8 @@ def atualizar_nome_tarefa(tarefas, indice_tarefa, novo_nome_tarefa):
         tarefas[indice]["nome"] = novo_nome_tarefa
         print(f"Tarefa {indice_tarefa} atualizada para {novo_nome_tarefa}")
     else:
-        print("Indece de Tarefa invalido")
-        1
+        print("Indice de Tarefa invalido")
+
     return
 
 def completar_tarefa(tarefas, indice_tarefa):
